@@ -7,7 +7,11 @@ The program uses the Bitly service API and can create short links from regular U
 To work, you need to register on the site [bitly.com](https://app.bitly.com/) and generate a token.
 Bitly documentation [link](https://dev.bitly.com/get_started.html).
 How to generate a token [described here](https://app.bitly.com/settings/apps/).
-
+Then you need to create a file ".env" in the folder with main.py.
+The line with the generated token must be inserted into the ".env" file
+```
+BITLY_TOKEN="{TOKEN}"
+```
 Python3 should be already installed.
 Then use `pip` (or `pip3`, if there is a conflict with Python2) to install dependencies:
 ```
@@ -28,6 +32,12 @@ The code is written for educational purposes on online-course for web-developers
 Для работы необходимо зарегистрироваться на сайте [bitly.com](https://app.bitly.com/) и сгенерировать токен.
 Документация bitly [по ссылке](https://dev.bitly.com/get_started.html).
 Как сгенерировать токен [описано здесь](https://app.bitly.com/settings/apps/).
+Затем нужно создать файл ".env" в папке с main.py.
+Строчку с сгенерированным токеном нужно вставить в файл ".env"
+
+```
+BITLY_TOKEN="{TOKEN}"
+```
 
 Python3 должен быть уже установлен.
 Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:
