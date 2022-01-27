@@ -1,10 +1,12 @@
 # Bitly url shorterer
 
-[TODO: here would be project description]
+The program uses the Bitly service API and can create short links from regular URLs and show the number of clicks on the so-called. "Beatlinks" - ready-made short links.
 
 ### How to install
 
-[TODO: tell user where he should get keys, where they should be and how they look like]
+To work, you need to register on the site [bitly.com](https://app.bitly.com/) and generate a token.
+Bitly documentation [link](https://dev.bitly.com/get_started.html).
+How to generate a token [described here](https://app.bitly.com/settings/apps/).
 
 Python3 should be already installed.
 Then use `pip` (or `pip3`, if there is a conflict with Python2) to install dependencies:
@@ -18,11 +20,14 @@ The code is written for educational purposes on online-course for web-developers
 
 # Обрезка ссылок с помощью Битли
 
-[TODO: тут должно быть описание проекта]
+Программа использует API сервиса Bitly и умеет создавать короткие ссылки из обычных URL и показывать количество кликов 
+по т.н. "Битлинкам" - готовым коротким ссылкам.
 
 ### Как установить
 
-[TODO: объясните пользователю, откуда брать ключи, куда их класть и как они выглядят]
+Для работы необходимо зарегистрироваться на сайте [bitly.com](https://app.bitly.com/) и сгенерировать токен.
+Документация bitly [по ссылке](https://dev.bitly.com/get_started.html).
+Как сгенерировать токен [описано здесь](https://app.bitly.com/settings/apps/).
 
 Python3 должен быть уже установлен.
 Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:
